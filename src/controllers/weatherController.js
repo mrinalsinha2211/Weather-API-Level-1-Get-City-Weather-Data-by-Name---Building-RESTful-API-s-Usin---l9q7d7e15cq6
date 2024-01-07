@@ -32,7 +32,7 @@ async function getWeatherDataByName(cityName) {
   if(cityData){
     return cityData.weather;
   }else{
-    throw new error("Not found");
+    throw new Error("Not found");
   }
 }
 
